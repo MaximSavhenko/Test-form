@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_       1 18   009                UA_2d91d5</name>
+   <tag></tag>
+   <elementGuidId>127a3640-9c91-4a47-94d2-9e8d71edc018</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/section[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>one_column</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>РозрахуватиКредитДепозитЦіль кредитуПоточні потребиСума, грнТермін, місКраща пропозиціяНазва кредитуПростийСума, грн1Термін, міс18Платіж / місяць, грн0,09* Дані розрахунки  є орієнтовними. Точні розрахунки надаються при оформленні продукту та підписанні договору.Залишити заявкуВалюта вкладуUAHUSDEURСумаТермін, місВиплата відсотків щомісяцяМожливість зняття та поповнення вкладуКраща пропозиціяНазва депозитуДохіднийТермін, міс3Сума50 000Ставка, %7,75%Ваш дохід777,71* Дані розрахунки вказані з урахуванням податку на доходи фізичних осіб в розмірі 18% та військового збору в розмірі 1,5% та є орієнтовними. Точні розрахунки надаються при оформленні продукту та підписанні договору.Залишити заявкуКурси валютOpen exchange rateГотівковіКартковіВалютаКупівляПродажUSD26,9027,30EUR29,9030,50PLN6,006,70GBP30,0033,00RUB0,300,38Конвертер валютOpen converterКупівляПродажUAHUSDДепозитні програми від банку з європейським капіталом 
+</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;home&quot;]/section[@class=&quot;one_column&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/section[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Дізнатися більше'])[3]/following::section[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[3]</value>
+   </webElementXpaths>
+</WebElementEntity>
