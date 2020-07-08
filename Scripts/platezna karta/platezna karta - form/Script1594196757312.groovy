@@ -42,3 +42,5 @@ WebUI.setText(findTestObject('platizhni-kartki-card-blanche-debit-fund/Page_/inp
 
 WebUI.click(findTestObject('platizhni-kartki-card-blanche-debit-fund/Page_/button_ (1)'))
 
+WebUI.getText(findTestObject('platizhni-kartki-card-blanche-debit-fund/Page_/input__mail'))
+
