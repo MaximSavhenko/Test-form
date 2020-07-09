@@ -42,3 +42,21 @@ WebUI.click(findTestObject('Feedback form/Page_/div_'))
 
 WebUI.click(findTestObject('Feedback form/Page_/Page_/div_    54'))
 
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/button_ _1'))
+
+WebUI.navigateToUrl('https://admin.ideabank.ua/uk/admin/structure/webform/submissions/manage')
+
+WebUI.click(findTestObject('Проверка заявки в админке/Page_  -   Idea Bank    ideabankua/a_'))
+
+WebUI.setText(findTestObject('Проверка заявки в админке/Login/Name'), 'Admin')
+
+WebUI.setText(findTestObject('Проверка заявки в админке/Login/Pass'), 'Mt$^BoqeCrBI')
+
+WebUI.click(findTestObject('Проверка заявки в админке/Login/Enter button'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.navigateToUrl('https://admin.ideabank.ua/uk/admin/structure/webform/submissions/manage')
+
+WebUI.setText(findTestObject('Проверка заявки в админке/Page_-  Idea Bank/input_ _search'), 'Тест Тест Тест')
+
+WebUI.click(findTestObject('Проверка заявки в админке/Page_-  Idea Bank/input__op'))
+
