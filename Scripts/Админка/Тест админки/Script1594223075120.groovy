@@ -14,31 +14,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://ideabank.ua/uk/feedback')
+WebUI.openBrowser('https://admin.ideabank.ua/uk/admin/structure/webform/submissions/manage')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Feedback form/Page_/input_  _pib'), '639348839')
+WebUI.click(findTestObject('Проверка заявки в админке/Page_  -   Idea Bank    ideabankua/a_'))
 
-WebUI.sendKeys(findTestObject('Feedback form/Page_/input_  _pib'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.setText(findTestObject('Проверка заявки в админке/Login/Name'), 'Admin')
 
-WebUI.sendKeys(findTestObject('Feedback form/Page_/input_  _pib'), Keys.chord(Keys.CONTROL, 'x'))
+WebUI.setText(findTestObject('Проверка заявки в админке/Login/Pass'), 'Mt$^BoqeCrBI')
 
-WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/input__phone'))
+WebUI.click(findTestObject('Проверка заявки в админке/Login/Enter button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Feedback form/Page_/input__phone'), Keys.chord(Keys.CONTROL, 'v'))
+WebUI.navigateToUrl('https://admin.ideabank.ua/uk/admin/structure/webform/submissions/manage')
 
-WebUI.setText(findTestObject('Feedback form/Page_/input_  _pib'), 'Тест Тест Тест')
+WebUI.setText(findTestObject('Проверка заявки в админке/Page_-  Idea Bank/input_ _search'), 'Тест Тест Тест')
 
-WebUI.setText(findTestObject('Feedback form/Page_/input__mail'), 'test.qa.wise@gmail.com')
-
-WebUI.setText(findTestObject('Feedback form/Page_/textarea__comment'), 'Тестовый комментарий')
-
-WebUI.click(findTestObject('Feedback form/Page_/div_'))
-
-WebUI.click(findTestObject('Feedback form/Page_/Page_/div_    54'))
+WebUI.click(findTestObject('Проверка заявки в админке/Page_-  Idea Bank/input__op'))
 

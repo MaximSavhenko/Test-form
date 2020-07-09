@@ -30,9 +30,9 @@ WebUI.sendKeys(findTestObject('rahunki ta rko/Page_/input_    _clname'), Keys.ch
 
 WebUI.sendKeys(findTestObject('rahunki ta rko/Page_/input_    _clname'), Keys.chord(Keys.CONTROL, 'x'))
 
-WebUI.click(findTestObject('Page_  -   Idea Bank    ideabankua/input__phone'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/input__phone'))
 
-WebUI.sendKeys(findTestObject('Page_  -   Idea Bank    ideabankua/input__phone'), Keys.chord(Keys.CONTROL, 'v'))
+WebUI.sendKeys(findTestObject('Page_ - Idea Bank GENERAL/input__phone'), Keys.chord(Keys.CONTROL, 'v'))
 
 WebUI.setText(findTestObject('rahunki ta rko/Page_/input_    _clname'), 'Тест Тест Тест')
 

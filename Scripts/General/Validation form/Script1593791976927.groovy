@@ -18,54 +18,54 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://ideabank.ua/uk')
 
-WebUI.click(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/div_   10 000 60   51542'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/div_   10 000 60   51542'))
 
-WebUI.click(findTestObject('Page_  -   Idea Bank    ideabankua/button_'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/button_'))
 
-WebUI.setText(findTestObject('Page_  -   Idea Bank    ideabankua/input_  _pib'), '&&&&&&')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_  _pib'), '&&&&&&')
 
-WebUI.doubleClick(findTestObject('Page_  -   Idea Bank    ideabankua/input_  _pib'))
+WebUI.doubleClick(findTestObject('Page_ - Idea Bank GENERAL/input_  _pib'))
 
-WebUI.setText(findTestObject('Page_  -   Idea Bank    ideabankua/input_  _pib'), 'Тест Тест Тест')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_  _pib'), 'Тест Тест Тест')
 
-WebUI.click(findTestObject('Page_  -   Idea Bank    ideabankua/input_  _pib'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/input_  _pib'))
 
-WebUI.doubleClick(findTestObject('Page_  -   Idea Bank    ideabankua/input_  _pib'))
+WebUI.doubleClick(findTestObject('Page_ - Idea Bank GENERAL/input_  _pib'))
 
-WebUI.setText(findTestObject('Page_  -   Idea Bank    ideabankua/input_  _pib'), '')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_  _pib'), '')
 
-WebUI.setText(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_concat(    )_phone'), '+38 (011) 111-11-11')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_concat(    )_phone'), '+38 (011) 111-11-11')
 
-WebUI.click(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_  _inn'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/input_  _inn'))
 
-WebUI.setText(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_concat(    )_phone'), '+38 (093) 111-11-11')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_concat(    )_phone'), '+38 (093) 111-11-11')
 
-WebUI.click(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_  _inn'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/input_  _inn'))
 
-WebUI.setText(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_concat(    )_phone'), '+38 (093) 011-11-1_')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_concat(    )_phone'), '+38 (093) 011-11-1_')
 
-WebUI.click(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_  _inn'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/input_  _inn'))
 
-WebUI.click(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_  _inn'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/input_  _inn'))
 
-WebUI.setText(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_concat(    )_phone'), '+38 (093) 014-43-86')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_concat(    )_phone'), '+38 (093) 014-43-86')
 
-WebUI.click(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_  _inn'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/input_  _inn'))
 
-WebUI.setText(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_concat(    )_phone'), '+38 (0__) ___-__-__')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_concat(    )_phone'), '+38 (0__) ___-__-__')
 
-WebUI.setText(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_  _inn'), '1111111111')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_  _inn'), '1111111111')
 
-WebUI.setText(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_concat(      )_react-select-5-input'), 
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_concat(      )_react-select-5-input'), 
     'Пе')
 
-WebUI.click(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/div_c'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/div_c'))
 
-WebUI.setText(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_c_mail'), '11112222222222222222222222222222222222')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_c_mail'), '11112222222222222222222222222222222222')
 
-WebUI.click(findTestObject('Page_  -   Idea Bank    ideabankua/button_ _1'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/button_ _1'))
 
-WebUI.setText(findTestObject('Object Repository/Page_  -   Idea Bank    ideabankua/input_c_mail'), 'test.qa.wise@gmail.com')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_c_mail'), 'test.qa.wise@gmail.com')
 
-WebUI.click(findTestObject('Page_  -   Idea Bank    ideabankua/button_ _1'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/button_ _1'))
 

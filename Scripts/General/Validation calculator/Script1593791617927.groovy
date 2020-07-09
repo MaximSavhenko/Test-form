@@ -20,17 +20,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://ideabank.ua/uk')
 
-WebUI.click(findTestObject('Page_  -   Idea Bank    ideabankua/div_'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/div_'))
 
-WebUI.setText(findTestObject('Page_  -   Idea Bank    ideabankua/input_ _react-select-4-input'), 'пе')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_ _react-select-4-input'), 'пе')
 
-WebUI.click(findTestObject('Page_  -   Idea Bank    ideabankua/div_'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/div_'))
 
-WebUI.setText(findTestObject('Page_  -   Idea Bank    ideabankua/input_ _react-select-4-input'), '??????????')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_ _react-select-4-input'), '??????????')
 
-WebUI.setText(findTestObject('Page_  -   Idea Bank    ideabankua/input_ _summa'), '00000111')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_ _summa'), '00000111')
 
-WebUI.click(findTestObject('Page_  -   Idea Bank    ideabankua/div_ _1'))
+WebUI.click(findTestObject('Page_ - Idea Bank GENERAL/div_ _1'))
 
-WebUI.setText(findTestObject('Page_  -   Idea Bank    ideabankua/input_ _termin'), '0000013')
+WebUI.setText(findTestObject('Page_ - Idea Bank GENERAL/input_ _termin'), '0000013')
 
