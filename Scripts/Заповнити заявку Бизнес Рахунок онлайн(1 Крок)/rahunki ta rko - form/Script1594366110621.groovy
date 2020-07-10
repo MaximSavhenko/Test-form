@@ -51,19 +51,19 @@ WebUI.click(findTestObject('rahunki ta rko/Page_/Page_/button_'))
 
 WebUI.navigateToUrl('https://admin.ideabank.ua/uk/admin/structure/webform/submissions/manage')
 
-WebUI.click(findTestObject('Проверка заявки в админке/Page_  -   Idea Bank    ideabankua/a_'))
+WebUI.click(findTestObject('Admin/Page_  -   Idea Bank    ideabankua/a_'))
 
-WebUI.setText(findTestObject('Проверка заявки в админке/Login/Name'), 'Admin')
+WebUI.setText(findTestObject('Admin/Login/Name'), 'Admin')
 
-WebUI.setText(findTestObject('Проверка заявки в админке/Login/Pass'), 'Mt$^BoqeCrBI')
+WebUI.setText(findTestObject('Admin/Login/Pass'), 'Mt$^BoqeCrBI')
 
-WebUI.click(findTestObject('Проверка заявки в админке/Login/Enter button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Admin/Login/Enter button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://admin.ideabank.ua/uk/admin/structure/webform/submissions/manage')
 
-WebUI.setText(findTestObject('Проверка заявки в админке/Page_-  Idea Bank/input_ _search'), 'Тест Тест Тест')
+WebUI.setText(findTestObject('Admin/Page_-  Idea Bank/input_ _search'), 'Тест Тест Тест')
 
-WebUI.click(findTestObject('Проверка заявки в админке/Page_-  Idea Bank/input__op'))
+WebUI.click(findTestObject('Admin/Page_-  Idea Bank/input__op'))
 
 
 
